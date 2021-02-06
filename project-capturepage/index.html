@@ -3,8 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Capture page project</title>
+    <style>
+            * {
+        padding: 0;
+        margin: 0;
+        }
+        body {
+            background-color: black;
+        }
+        .container {
+            max-width: 950px;
+            margin: auto;
+        }
+        header {
+            background-color: #48C5CE;
+            margin: auto;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        .containerform {
+            max-width: 250px;
+            background:rgb(255,255,255);
+            background: transparent\9;
+            background:rgba(255,255,255,0.7);
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2ffffff,endColorstr=#b2ffffff);
+            zoom: 1;
+            float: right;
+            padding: 20px;  
+        }
+        .div:nth-child(n) {
+            filter: none;
+        }
+        .h2 {
+            font-size: 14px;
+        }
+        .mb {
+            margin-bottom: 15px;
+        }
+        section {
+            padding: 20px;
+            background-image: url(_images/people2.jpg);
+            background-size: cover;
+            overflow: hidden;
+
+        }
+        input, select {
+            box-sizing: border-box;
+            width: 100%;
+            border: none;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        section input.submit {
+            background-color:  #48C5CE;
+            font-weight: bold;
+            color: white;
+        }
+        section input.submit:hover {
+            background: linear-gradient(to right,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+        }
+        select {
+            appearance: none;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            background-image: url(_images/arrowdown.png);
+            background-repeat: no-repeat;
+            background-position: calc(100% - 10px) center;
+        }
+        .photo {
+            max-width: 150px;
+            height: 200px;
+        }
+        footer {
+            background-color: rgb(37, 35, 35);
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        footer .profile {
+            color: white;
+            display: inline-block;
+            max-width: 40%;
+            margin-left: 20px;
+            text-align: left;
+        }
+        .profile p, .profile h3 {
+            margin-bottom: 20px;
+        }
+        .profile h3 {
+            font-size: 24px;
+        }
+        .profile p {
+            font-size: 18px;
+        }
+        @media screen and (max-width: 750px) {
+            h1 {
+                font-size: 22px;
+            }
+            .containerform {
+                float: none;
+                margin: auto;
+            } 
+            footer .profile {
+                display: block;
+                max-width: 100%;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
