@@ -38,7 +38,7 @@ header {
 }
 section {
     padding: 20px;
-    background-image: url(_images/people2.jpg);
+    background-image: url(people2.jpg);
     background-size: cover;
     overflow: hidden;
 
