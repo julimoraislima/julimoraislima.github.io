@@ -10,7 +10,7 @@
 body {
     background: linear-gradient(#965FE3, #6C1BDE, #5315AB);
     background-repeat: no-repeat;
-    min-width: 100vh;
+    min-width: 100vw;
     min-height: 100vh;
     display: flex;
     align-items: center;
