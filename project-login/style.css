@@ -137,7 +137,7 @@ form input[type="submit"]:hover {
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 0px;
+    top: 0;
     left: 0;
     background: linear-gradient(45deg, #B253E6, #970DE0);
     clip-path: circle(50% at right 0%);
