@@ -133,3 +133,23 @@ form input[type="submit"]:hover {
 .input-field input:focus ~ .underline::after {
     transform: scaleX(1);
 }
+.circle1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    background: linear-gradient(45deg, #B253E6, #970DE0);
+    clip-path: circle(50% at right 0%);
+    z-index: -1;
+}
+.circle2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(45deg, #B253E6, #970DE0);
+    clip-path: circle(50% at left 100%);
+    z-index: -1;
+}
