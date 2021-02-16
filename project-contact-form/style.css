@@ -55,7 +55,7 @@ form input {
     outline: none;
 }
 .contact span {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .input-field input {
     padding: 20px;
@@ -66,7 +66,8 @@ form input {
     color: rgba(0, 0, 0, 0.4);
 }
 form input[type="checkbox"] {
-    font-size: 0.6rem;
+    height: 15px;
+    width: 15px;
 }
 form input[type="submit"] {
     background-color: #5C73F2;
