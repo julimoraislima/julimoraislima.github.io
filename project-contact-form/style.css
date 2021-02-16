@@ -54,6 +54,9 @@ form input {
     margin-top: 1rem;
     outline: none;
 }
+.contact span {
+    margin-top: 10px;
+}
 .input-field input {
     padding: 20px;
     border-radius: 10px;
@@ -61,9 +64,6 @@ form input {
 }
 .input-field input::placeholder {
     color: rgba(0, 0, 0, 0.4);
-}
-form input[type="checkbox"] {
-    padding: 50px;
 }
 form input[type="submit"] {
     background-color: #5C73F2;
@@ -76,7 +76,7 @@ form input[type="submit"] {
     margin: auto;
 }
 
-@media(max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         background: none;
     }
@@ -90,7 +90,6 @@ form input[type="submit"] {
     .menu-principal li {
         border-bottom: solid 1px #0003;
         display: block;
-
     }
     .contact {
         margin-top: 110px;
