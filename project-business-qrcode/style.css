@@ -127,6 +127,7 @@ footer .copyright {
     label[for="menu"] {
         display: block;
         padding-right: 10px;
+        font-size: 2.6rem;
     }
     .menu-principal {
         margin-left: -50%;
@@ -144,5 +145,11 @@ footer .copyright {
     .container {
         margin-top: 180px;
         font-size: 0.6rem;
+    }
+    .steps-field {
+        font-size: 1rem;
+    }
+    footer .copyright {
+        font-size: 1rem;
     }
 }
