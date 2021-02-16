@@ -22,12 +22,12 @@ label[for="menu"] {
     height: 50px;
     float: right;
     display: none;
-    color: #935CFF;
+    color: #ccc;
 }
 header {
     max-width: 100vw;
     height: 70px;
-    background-color: #ccc;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .menu-principal {
     max-width: 500px;
@@ -43,7 +43,7 @@ header {
 }
 .menu-principal a {
     text-decoration: none;
-    color: #935CFF;
+    color: #ccc;
     font-weight: 700;
 }
 img {
@@ -117,18 +117,21 @@ footer .copyright {
     padding-bottom: 20px;
 }
 @media screen and (max-width: 600px) {
+    header {
+        background: none;
+    }
     label[for="menu"] {
         display: block;
         padding-right: 10px;
     }
     .menu-principal {
-        background-color: #ccc;
         margin-left: -50%;
         transition: all .4s;
         max-width: 100vw;
     }
     #menu:checked~ .menu-principal {
         margin-left: 0;
+        background-color: rgba(0, 0, 0, 0.1);
     }
     .menu-principal ul li{
         width: 50vw;
