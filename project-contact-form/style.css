@@ -65,6 +65,9 @@ form input {
 .input-field input::placeholder {
     color: rgba(0, 0, 0, 0.4);
 }
+form input[type="checkbox"] {
+    font-size: 1rem;
+}
 form input[type="submit"] {
     background-color: #5C73F2;
     border-color: #5C73F2;
