@@ -77,10 +77,14 @@ hr {
     margin: auto;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 .steps-field i {
     margin-top: 30px;
     margin-bottom: 15px;
+}
+.steps-field i:first-child {
+    margin-top: 0px;
 }
 footer {
     width: 100%;
@@ -138,7 +142,7 @@ footer .copyright {
         float: none;
     }
     .container {
-        margin-top: 150px;
+        margin-top: 180px;
         font-size: 0.6rem;
     }
 }
