@@ -5,18 +5,20 @@
     margin: 0;
 }
 body {
-    background: linear-gradient(45deg, #5498E8,#6987FF,#5D54E8);
+    background: #2f2e36;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
     font-family: roboto, sans-serif;
+}
+.container {
+    background: linear-gradient(45deg, #5498E8,#6987FF,#5D54E8);
+    max-width: 900px;
+    margin: auto;
 }
 #menu {
     display: none;
 }
 label[for="menu"] {
     text-align: center;
-    font-size: 3rem;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -24,25 +26,26 @@ label[for="menu"] {
     display: none;
     color: #ccc;
     padding-right: 10px;
+    font-size: 3rem;
 }
 header {
     max-width: 100vw;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.menu-principal {
+.menu-head {
     max-width: 500px;
     font-size: 1.4em;
     margin: auto;
 }
-.menu-principal ul {
+.menu-head ul {
     list-style: none;
 }
-.menu-principal li {
+.menu-head li {
     display: inline-block;
     margin: 20px 30px;
 }
-.menu-principal a {
+.menu-head a {
     text-decoration: none;
     color: #ccc;
     font-weight: 700;
@@ -52,14 +55,14 @@ img {
     float: right;
     margin: 20px;
 }
-.container {
-    margin: 20px 20px 20px 50px;
-    max-width: 100vw;
+.menu-principal {
+    padding: 20px;
+    margin-left: 30px;
 }
-.container h1 {
+.menu-principal h1 {
     font-size: 3em;
 }
-.container h2 {
+.menu-principal h2 {
     margin-top: 20px;
 }
 .steps h3 {
@@ -127,21 +130,22 @@ footer .copyright {
     }
     label[for="menu"] {
         display: block;
+
     }
-    .menu-principal {
+    .menu-head {
         margin-left: -50%;
         transition: all .4s;
         max-width: 100vw;
     }
-    #menu:checked~ .menu-principal {
+    #menu:checked~ .menu-head {
         margin-left: 0;
         background-color: rgba(0, 0, 0, 0.1);
     }
-    .menu-principal ul li{
+    .menu-head ul li{
         width: 50vw;
         float: none;
     }
-    .container {
+    .menu-principal {
         margin-top: 180px;
         font-size: 0.6rem;
     }
