@@ -98,6 +98,14 @@ picture.images {
 picture.images img {
     max-width: 90%;
 }
+.pngtree a {
+    position: absolute;
+    text-decoration: none;
+    color: #504d5c;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+}
 .circle {
     position: absolute;
     width: 100%;
