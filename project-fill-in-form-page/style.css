@@ -139,12 +139,12 @@ figcaption {
         margin-top: 20px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
     section h1 {
         font-size: 1.6rem;
     }
     form input {
-        max-width: 150px;
+        max-width: 230px;
         height: 40px;
     }
     .connect span::before, .connect span::after {
