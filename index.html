@@ -8,17 +8,25 @@
     <title>julimoraislima.github.io</title>
     <link rel="shortcut icon" href="favicon3.ico" type="image/x-icon">
 
-    <style>/*------ CSS ---------*/       
+    <style>/*------ CSS ---------*/ 
+        * {
+            margin: 0;
+            padding: 0;
+        }     
         body {
             background: linear-gradient(45deg, #ccc, #BFBFBF, #D6ADC5);
-            margin: 1% 15% 15% 13%;
-            word-spacing: 2px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 18px;
+            font-size: 1.2rem;
+        }
+        .container{
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
         }
         .social-media {
             list-style: none;
-            font-size: 32px;
+            font-size: 2rem;
+            margin: 20px 40px;
         }
         .social-media li {
             display: inline-block;
@@ -30,6 +38,7 @@
         ul {
             color: rgb(247, 11, 168);
             font-size: 20px;
+            margin: 20px;
         }
         a {
             text-decoration: none;
@@ -41,78 +50,93 @@
         p {
             text-align: justify;
         }
+        hr {
+            margin: 20px 0 20px 0;
+        }
+        .img {
+            max-width: 305px;
+            max-height: 305px;
+        }
+        @media screen and (max-width:600px) {
+            body {
+            font-size: 1rem;
+            }
+            .container{
+                max-width: 600px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <!--------------- HTML ----------->
-  
-    <hr>
-    <h1>Portifólio de Juliana de Morais Lima</h1>
-    <hr>
-    <p>
-        Aqui você encontra alguns dos meus projetos, como também todos os exercícios/desafios 
-        feitos por mim durante os cursos que fiz e estou fazendo de
-        programação e desenvolvimento web. Estou organizando-os em repositórios públicos para
-        o acesso de todos.
-        Seja bem vindo para ser contribuidor, fazer clone, fork, issues, etc.
-    </p>
-    <ul class="social-media">
-        <li><a target="_blank" rel="external" href="https://github.com/julimoraislima"><i class="fab fa-github"></i></a>
-        <li><a target="_blank" rel="external" href="https://www.linkedin.com/in/julimoraislima"><i class="fab fa-linkedin"></i></a>
-        <li><a target="_blank" rel="external" href="https://instagram.com/julimoraislima"><i class="fab fa-instagram"></i></a>
-        <li><a target="_blank" rel="external" href="https://www.cursoemvideo.com/hall-da-fama/juliana-de-morais-lima/"><i class="fas fa-graduation-cap"></i></a>
-    </ul><!--social-media-->
-   
-    <h2><i class="fas fa-laptop-code"></i>Meus Projetos</h2>
-    <ul class="projetos">
-        <li><a target="_blank" rel="external" href="project-capturepage">Projeto Página de Captura</a>
-        <li><a target="_blank" rel="external" href="project-login">Projeto Login</a>
-        <li><a target="_blank" rel="external" href="project-business-qrcode">Projeto Menu Digital QR Code</a>
-    </ul>
-    <br>
-    <h2>Curso de Desenvolvimento Web Full Stack
-        <img src="octocat-dweb-365x365px.png" alt="Octocat-dweb" width="305" height="305" style="float: right;">
-    </h2>
-    <hr>
-    <p>
-        Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de desenvolvimento web.
-    </p>
-    <ul>
-        <li>
-            <a target="_blank" rel="external" href="https://github.com/julimoraislima/CursoDesenvolvimentoWeb">Acesse o
-                meu Repositório de Desenvolvimento Web clicando aqui</a>
-        </li>
-    </ul>
-    <br>
-    <h2>Curso de HTML5 e CC3</h2>
-    <hr>
-    <p>
-        Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de
-        <abbr title="Hyper Text Markup Language"><strong>HTML</strong>
-        </abbr> que é uma linguagem de marcação utilizada para criar o conteúdo de um site, de 
-        <abbr title="Cascading Style Sheets"><strong>CSS</strong></abbr> que é
-        uma linguagem de marcação utilizada para criar o design de um site.
-    </p>
-    <ul>
-        <li>
-            <a target="_blank" rel="external" href="https://github.com/julimoraislima/cursoHTML5-CSS3">Acesse o
-                meu Repositório de HTML5 e CSS3 clicando aqui</a>
-        </li>
-    </ul>
-    <br>
-    <h2>Curso de Python
-        <img src="octocat-python-365x365px.png" alt="Octocat-python" width="305" height="305" style="float: right;">
-    </h2>
-    <hr>
-    <p>
-        Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de 
-        <strong>Python</strong>, que é
-        uma linguagem de programação de alto nível, dos Mundos 1, 2 e 3 do Curso.
-    </p>
-    <ul>
-        <li><a target="_blank" rel="external" href="https://github.com/julimoraislima/Python3-CursoEmVideo">Acesse
-                meu Repositório do curso de Python clicando aqui</a></li>
-    </ul>
+    <div class="container">
+        <hr>
+        <h1>Portifólio de Juliana de Morais Lima</h1>
+        <hr>
+        <p>
+            Aqui você encontra alguns dos meus projetos, como também todos os exercícios/desafios 
+            feitos por mim durante os cursos que fiz e estou fazendo de
+            programação e desenvolvimento web. Estou organizando-os em repositórios públicos para
+            o acesso de todos.
+            Seja bem vindo para ser contribuidor, fazer clone, fork, issues, etc.
+        </p>
+        <ul class="social-media">
+            <li><a target="_blank" rel="external" href="https://github.com/julimoraislima"><i class="fab fa-github"></i></a>
+            <li><a target="_blank" rel="external" href="https://www.linkedin.com/in/julimoraislima"><i class="fab fa-linkedin"></i></a>
+            <li><a target="_blank" rel="external" href="https://instagram.com/julimoraislima"><i class="fab fa-instagram"></i></a>
+            <li><a target="_blank" rel="external" href="https://www.cursoemvideo.com/hall-da-fama/juliana-de-morais-lima/"><i class="fas fa-graduation-cap"></i></a>
+        </ul><!--social-media-->
+    
+        <h2><i class="fas fa-laptop-code"></i>Meus Projetos</h2>
+        <ul class="projetos">
+            <li><a target="_blank" rel="external" href="project-capturepage">Projeto Página de Captura</a>
+            <li><a target="_blank" rel="external" href="project-login">Projeto Login</a>
+            <li><a target="_blank" rel="external" href="project-business-qrcode">Projeto Menu Digital QR Code</a>
+        </ul>
+        <br>
+        <h2>Curso de Desenvolvimento Web Full Stack</h2>
+        <img src="octocat-dweb-365x365px.png" alt="Picture of Octocat Web" width="305" height="305" style="float: right;">
+        <hr>
+        <p>
+            Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de desenvolvimento web.
+        </p>
+        <ul>
+            <li>
+                <a target="_blank" rel="external" href="https://github.com/julimoraislima/CursoDesenvolvimentoWeb">Acesse o
+                    meu Repositório de Desenvolvimento Web clicando aqui</a>
+            </li>
+        </ul>
+        <br>
+        <h2>Curso de HTML5 e CC3</h2>
+        <hr>
+        <p>
+            Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de
+            <abbr title="Hyper Text Markup Language"><strong>HTML</strong>
+            </abbr> que é uma linguagem de marcação utilizada para criar o conteúdo de um site, de 
+            <abbr title="Cascading Style Sheets"><strong>CSS</strong></abbr> que é
+            uma linguagem de marcação utilizada para criar o design de um site.
+        </p>
+        <ul>
+            <li>
+                <a target="_blank" rel="external" href="https://github.com/julimoraislima/cursoHTML5-CSS3">Acesse o
+                    meu Repositório de HTML5 e CSS3 clicando aqui</a>
+            </li>
+        </ul>
+        <br>
+        <h2>Curso de Python
+            <img src="octocat-python-365x365px.png" alt="Picture of Octocat Python" width="305" height="305" style="float: right;">
+        </h2>
+        <hr>
+        <p>
+            Aqui estarão todos os exercícios/desafios feitos por mim durante as aulas de 
+            <strong>Python</strong>, que é
+            uma linguagem de programação de alto nível, dos Mundos 1, 2 e 3 do Curso.
+        </p>
+        <ul>
+            <li><a target="_blank" rel="external" href="https://github.com/julimoraislima/Python3-CursoEmVideo">Acesse
+                    meu Repositório do curso de Python clicando aqui</a></li>
+        </ul>
+    </div>
 </body>
 </html>
