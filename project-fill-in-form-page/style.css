@@ -150,7 +150,4 @@ figcaption {
     .connect span::before, .connect span::after {
         max-width: 30px;
     }
-    .media-field {
-        font-size: 1rem;
-    }
 }
