@@ -94,6 +94,13 @@ footer .profile {
 }
 .profile p {
     font-size: 18px;
+   font-style: italic;
+}
+p.copyright {
+    font-style: italic;
+    color: grey;
+    margin-top: 20px;
+    font-size: 14px;   
 }
 @media screen and (max-width: 750px) {
     h1 {
