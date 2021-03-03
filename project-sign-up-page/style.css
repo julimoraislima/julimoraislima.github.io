@@ -17,6 +17,7 @@ body {
 }
 main.container {
     margin: auto;
+    padding: 20px;
     max-width: 950px;
     max-height: 100%;
 }
@@ -112,6 +113,7 @@ figure img {
 figcaption {
     color: #5d5a6b;
     font-size: 10px;
+    text-align: center;
 }
 .circle {
     position: absolute;
@@ -122,6 +124,11 @@ figcaption {
     background: linear-gradient(to bottom,#2B70AE, #B5B4B4, #7C61A8);
     clip-path: circle(50% at right 0%);
     z-index: -1;
+}
+.copyright {
+    color: #ccc;
+    margin-top: 30px;
+    font-size: 0.9rem;
 }
 @media screen and (max-width:650px) {
     body {
@@ -150,5 +157,8 @@ figcaption {
     }
     .connect span::before, .connect span::after {
         max-width: 30px;
+    }
+    .copyright {
+        text-align: center;
     }
 }
