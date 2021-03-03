@@ -17,6 +17,9 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
+header h1 {
+    max-width: 900px;
+}
 .containerform {
     max-width: 250px;
     background:rgb(255,255,255);
@@ -91,6 +94,13 @@ footer .profile {
 }
 .profile p {
     font-size: 18px;
+   font-style: italic;
+}
+p.copyright {
+    font-style: italic;
+    color: grey;
+    margin-top: 20px;
+    font-size: 14px;   
 }
 @media screen and (max-width: 750px) {
     h1 {
